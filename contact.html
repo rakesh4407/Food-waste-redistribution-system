@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body class="contactbody">
+    <nav>
+        <a href="https://www.google.com/maps" target="_blank">
+            <img src="logo.png" class="logo" alt="Logo" title="Refoodify Hub">
+        </a>
+        
+        <ul class="navbar">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="index.html#fwmanage">What We Do</a>
+                <a href="register.html">Get Involved</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <p>We are here to assist you! Fill out the form below, and we'll respond within 2 business days.</p>
+            <form id="contactForm">
+                <input type="text" name="myname" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your E-mail" required>
+                <input type="text" name="subject" placeholder="What brings you here?" required>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+            <!-- Status Messages -->
+            <div id="loading" style="display: none; color: #666; margin-top: 10px;">Submitting...</div>
+            <div id="successMessage" style="display: none; color: green; margin-top: 10px;">Thank you! Your message has been sent.</div>
+            <div id="errorMessage" style="display: none; color: red; margin-top: 10px;"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <!-- ... (keep existing footer content unchanged) ... -->
+    </section>
+
+    <!-- Firebase Integration -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+        import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCx5_xd6Dq90NNEyORCvzS0ESHWaEnNz44",
+            authDomain: "refoodify-ed0b0.firebaseapp.com",
+            databaseURL: "https://refoodify-ed0b0-default-rtdb.firebaseio.com",
+            projectId: "refoodify-ed0b0",
+            storageBucket: "refoodify-ed0b0.firebasestorage.app",
+            messagingSenderId: "599325163528",
+            appId: "1:599325163528:web:487dd62be5a28d41ff51bd",
+            measurementId: "G-NTRK8CBC8C"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Show loading state
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('successMessage').style.display = 'none';
+            document.getElementById('errorMessage').style.display = 'none';
+
+            // Get form values
+            const contactData = {
+                name: e.target.myname.value,
+                email: e.target.email.value,
+                subject: e.target.subject.value,
+                message: e.target.message.value,
+                timestamp: new Date().toISOString()
+            };
+
+            // Push to Firebase
+            push(ref(database, 'contacts/'), contactData)
+                .then(() => {
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('successMessage').style.display = 'block';
+                    e.target.reset(); // Clear form
+                })
+                .catch((error) => {
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('errorMessage').textContent = `Error: ${error.message}`;
+                    document.getElementById('errorMessage').style.display = 'block';
+                });
+        });
+    </script>
+</body>
+</html>
