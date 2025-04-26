@@ -21,6 +21,12 @@ Click here to watch the video
 .......
 
 
+Run the Project:
+
+Click here to Run the Project link
+https://rakesh4407.github.io/Rakesh_BCA_B_Food-waste-Redistribution/
+
+
 Link to Report file:
 
 Click here to Report Link
@@ -37,7 +43,7 @@ Tools: Git, GitHub, VS Code
 
 
 
-Steps to Run the Project:
+
 
 
 
