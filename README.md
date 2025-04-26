@@ -1,7 +1,7 @@
 # Food-waste-Redistribution
-
+...
 Team Members:
-
+...
 RAKESH G             2401201064    BCA - B SECTION
 ANURAG KUMAR MISHRA  2401201076    BCA - B SECTION
 ADITIYA SHIBU        2401201047    BCA - B SECTION
