@@ -24,7 +24,7 @@ Click here to watch the video
 Technologies Used:
 
 Frontend: HTML, CSS, JavaScript
-Database: MySQL / Firebase / MongoDB
+Database: MySQL / Firebase 
 Tools: Git, GitHub, VS Code
 
 
