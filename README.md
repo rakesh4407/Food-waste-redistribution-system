@@ -44,4 +44,19 @@ This project contributes to the following **Sustainable Development Goals (SDGs)
 
 ---
 
+## Video Explanation
+[Click here to watch the project video](https://www.loom.com/share/e53a26537a29482cb1e358e6a41898ab?sid=78b14518-508a-4c5f-b3a9-b7cf30d31fb8)**
+
+---
+
+## Run the Project 
+[Click here to Execute the projet )](https://rakesh4407.github.io/Rakesh_BCA_B_Food-waste-Redistribution/)**
+
+---
+
+## Report File (PDF)
+[Click here to view the project report (PDF)](https://github.com/rakesh4407/Rakesh_BCA_B_Food-waste-Redistribution/blob/main/Food%20Waste%20Redistribution%20Report%20Rakesh_BCA-B.pdf)**
+
+---
+
 
