@@ -18,7 +18,7 @@ Food Waste Redistribution System is a socially-driven application that connects 
 Link to Video Explanation:
 
 Click here to watch the video
-.......
+https://www.loom.com/share/e53a26537a29482cb1e358e6a41898ab?sid=78b14518-508a-4c5f-b3a9-b7cf30d31fb8
 
 
 Run the Project:
