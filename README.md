@@ -13,33 +13,32 @@ Project Description:
 
 Food Waste Redistribution System is a socially-driven application that connects food donors (like restaurants, hotels, households) with NGOs or individuals in need. The main aim is to reduce food waste by efficiently redistributing surplus edible food to prevent hunger and promote sustainability.
 
+
+
 Link to Video Explanation:
 
 Click here to watch the video
 
 
+
 Technologies Used:
 
 Frontend: HTML, CSS, JavaScript
-
 Database: MySQL / Firebase / MongoDB
-
 Tools: Git, GitHub, VS Code
+
+
 
 
 Steps to Run the Project:
 
 
 
-
 Features:
 
 Donor registration and food listing
-
 NGO/receiver request system
-
 Real-time notifications and food status
-
 Location-based suggestions
 
 
