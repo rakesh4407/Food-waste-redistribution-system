@@ -18,6 +18,13 @@ Food Waste Redistribution System is a socially-driven application that connects 
 Link to Video Explanation:
 
 Click here to watch the video
+.......
+
+
+Link to Report file:
+
+Click here to Report Link
+https://github.com/rakesh4407/Rakesh_BCA_B_Food-waste-Redistribution/blob/main/Food%20Waste%20Redistribution%20Report%20Rakesh_BCA-B.pdf
 
 
 
