@@ -38,7 +38,7 @@ This project contributes to the following **Sustainable Development Goals (SDGs)
 # Links
 
 ## 🎥 Video Explanation
-[Click here to watch the project video](https://www.loom.com/share/e72fb710bf084fd9bf435fad2dcf82a9?sid=f45150b4-a2fe-4227-a3be-e6987fee7a4e)
+[Click here to watch the project video](https://www.loom.com/share/e72fb710bf084fd9bf435fad2dcf82a9?sid=d9b6a739-6f0f-42d5-8971-e1d560fc1003)
 
 ---
 
