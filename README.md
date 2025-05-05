@@ -38,7 +38,7 @@ This project contributes to the following **Sustainable Development Goals (SDGs)
 # Links
 
 ## 🎥 Video Explanation
-[Click here to watch the project video](https://www.loom.com/share/e72fb710bf084fd9bf435fad2dcf82a9?sid=d9b6a739-6f0f-42d5-8971-e1d560fc1003)
+[Click here to watch the project video](https://www.dropbox.com/scl/fi/thaqulxg31sbrer64axn3/Food-Waste-Redistribution-Presentation.mp4?rlkey=crekh4x18ie7wqdpf1x28kw9n&st=vd7wxpiw&dl=0)
 
 ---
 
