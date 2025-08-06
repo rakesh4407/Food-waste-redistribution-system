@@ -32,7 +32,8 @@ This project contributes to the following **Sustainable Development Goals (SDGs)
 ---
 
 ## 🚀 Run the Project
-[Click here to execute the project](https://rakesh4407.github.io/Rakesh_BCA_B_Food-waste-Redistribution/)
+[Click here to execute the project](https://rakesh4407.github.io/food-waste-redistribution/)
+))
 
 ---
 
