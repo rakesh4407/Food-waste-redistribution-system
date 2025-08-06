@@ -42,7 +42,7 @@ This project contributes to the following **Sustainable Development Goals (SDGs)
 ---
 ## 👥 Contributors & Acknowledgements  
 - Developed by: Rakesh G, BCA (AI & DS) student  
-- Inspired by projects like [FeedOn](https://github.com/anushadatta/FeedOn) and HungerHalt:contentReference[oaicite:5]{index=5}
+- Inspired by projects like [FeedOn](https://github.com/anushadatta/FeedOn) 
 
 ## 📌 License  
 MIT License
