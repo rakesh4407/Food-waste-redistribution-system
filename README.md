@@ -1,5 +1,37 @@
 # Food Waste Redistribution System
 
+## 🌍 Overview  
+A web-based solution that connects surplus food donors (e.g. caterers, restaurants, market vendors) with recipients (NGOs, shelters, orphanages). It aims to reduce food waste and support sustainable redistribution in communities.
+
+## 🧪 Features  
+- Donor & Receiver sign-up
+- Post a donation request or food need
+- Real-time matching of requests
+- Interactive dashboard for monitoring food flow
+
+## ⚙️ Tech Stack  
+- Frontend: HTML / CSS / JavaScript  
+- Backend: (Node.js / Express / Python Flask or specify)  
+- Database: (MySQL / MongoDB / Firebase, etc.)
+
+## 📦 Folder Structure  
+
+
+## 🚀 How to Run  
+1. Clone the repo  
+2. `cd frontend` → `npm install` → `npm start`  
+3. `cd backend` → `npm install` → `npm run dev`
+
+## 👥 Contributors & Acknowledgements  
+- Developed by: Rakesh G, BCA (AI & DS) student  
+- Inspired by projects like [FeedOn](https://github.com/anushadatta/FeedOn) and HungerHalt:contentReference[oaicite:5]{index=5}
+
+## 📌 License  
+MIT License
+
+
+# Food Waste Redistribution System
+
 ## Created By
 - **RAKESH G** (2401201064) - BCA - B SECTION  
 ---
