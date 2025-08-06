@@ -14,47 +14,8 @@ A web-based solution that connects surplus food donors (e.g. caterers, restauran
 - Backend: (Node.js / Express / Python Flask or specify)  
 - Database: (MySQL / MongoDB / Firebase, etc.)
 
-## 📦 Folder Structure  
-
-
-## 🚀 How to Run  
-1. Clone the repo  
-2. `cd frontend` → `npm install` → `npm start`  
-3. `cd backend` → `npm install` → `npm run dev`
-
-## 👥 Contributors & Acknowledgements  
-- Developed by: Rakesh G, BCA (AI & DS) student  
-- Inspired by projects like [FeedOn](https://github.com/anushadatta/FeedOn) and HungerHalt:contentReference[oaicite:5]{index=5}
-
-## 📌 License  
-MIT License
-
-
-# Food Waste Redistribution System
-
-## Created By
-- **RAKESH G** (2401201064) - BCA - B SECTION  
----
-
 ## Project Description
 The **Food Waste Redistribution System** is a socially-driven web application that connects food donors (such as restaurants, hotels, and households) with NGOs or individuals in need. The goal is to **reduce food waste** by efficiently redistributing surplus edible food, thereby **preventing hunger** and **promoting sustainability**.
-
----
-
-## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript
-- **Database:** MySQL / Firebase
-- **Tools:** Git, GitHub, Visual Studio Code (VS Code)
-
----
-
-## Features
-- ✅ Donor Registration and Food Listing
-- ✅ NGO/Receiver Request System
-- ✅ Real-Time Notifications and Food Status Updates
-- ✅ Location-Based Suggestions for Efficient Redistribution
-
----
 
 ## Impact
 This project contributes to the following **Sustainable Development Goals (SDGs)**:
@@ -79,5 +40,11 @@ This project contributes to the following **Sustainable Development Goals (SDGs)
 [Click here to view the project report (PDF)](https://github.com/rakesh4407/Rakesh_BCA_B_Food-waste-Redistribution/blob/main/Food%20Waste%20Redistribution%20Report%20Rakesh_BCA-B.pdf)
 
 ---
+## 👥 Contributors & Acknowledgements  
+- Developed by: Rakesh G, BCA (AI & DS) student  
+- Inspired by projects like [FeedOn](https://github.com/anushadatta/FeedOn) and HungerHalt:contentReference[oaicite:5]{index=5}
+
+## 📌 License  
+MIT License
 
 
