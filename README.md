@@ -1,11 +1,7 @@
 # Food Waste Redistribution System
 
-## Team Members
+## Created By
 - **RAKESH G** (2401201064) - BCA - B SECTION  
-- **ANURAG KUMAR MISHRA** (2401201076) - BCA - B SECTION  
-- **ADITIYA SHIBU** (2401201047) - BCA - B SECTION  
-- **LAKSHYA DANGWAL** (2401201030) - BCA - B SECTION  
-
 ---
 
 ## Project Description
